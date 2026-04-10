@@ -41,12 +41,6 @@ fieldset {
     padding: 1rem;
 }
 
-legend {
-    padding: 0.5rem;
-    color: navy;
-    font-size: 1.3em;
-}
-
 label,
 input,
 button,
@@ -108,4 +102,5 @@ footer {
 
 .column2 {
     grid-template-columns: 1fr 2fr;
+
 }
