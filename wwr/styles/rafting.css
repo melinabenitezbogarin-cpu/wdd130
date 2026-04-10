@@ -65,15 +65,6 @@ footer {
     margin: auto;
 }
 
-h1,
-h2 {
-    font-family: var(--heading-front);
-    color: var(--primary-color);
-    padding: 7px;
-    text-align: center;
-    background-color: var(--accent1-color);
-}
-
 nav,
 p,
 section,
@@ -84,9 +75,12 @@ article {
 
 h2 {
     margin: 16px 0;
+    margin-left: -27px;
     padding: 8px;
     width: 840px;
-    margin-left: -23px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 footer img {
@@ -106,15 +100,17 @@ footer img {
 }
 
 h1 {
-    position: absolute;
-    top: 20px;
+    position: relative;
+    top: 10px;
     width: 840px;
-    padding: 14px;
+    padding: 10px;
     text-align: center;
-    margin-left: 1px;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+.hero {
+    margin: auto;
+    position: relative;
 }
 
 .hero article {
@@ -151,6 +147,11 @@ h1 {
     text-align: center;
 }
 
+.figures img {
+    width: 100%;
+    height: auto;
+}
+
 .flex-container {
     border: 2px solid var(--accent2-color);
     background-color: lightgray;
@@ -165,4 +166,77 @@ h1 {
     text-decoration: none;
     gap: 10px;
 
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+
+.contact p {
+    margin: 0px 0;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ddd;
+    color: #111;
+}
+
+.form-item-column1,
+.form-item-column2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+textarea,
+.form-item-column1,
+.form-item-column2,
+.form-item-column3,
+button {
+    width: 100%;
+    margin: 5px;
+}
+
+input:not([type="radio"]):not([type="checkbox"]) {
+    width: 330px;
+    height: 40px;
+    margin: 5px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button {
+    display: block;
+    background-color: navy;
+    color: #fff;
+    width: 400px;
+    padding: 0.75rem;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
+}
+
+footer {
+    display: flex;
+    align-items: center;
 }
