@@ -1,6 +1,6 @@
 :root {
     --primary-color: white;
-    --secondary-color: beige;
+    --secondary-color: lightgray;
     --accent1-color: teal;
     --accent2-color: black;
     --heading-front: "White Water Rafting", serif;
@@ -22,7 +22,7 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    background-color: lightgray;
+    background-color: var(--secondary-color);
     padding: 10px;
     width: 840px;
 }
@@ -149,7 +149,7 @@ h1 {
 
 .flex-container {
     border: 2px solid var(--accent2-color);
-    background-color: lightgray;
+    background-color: var(--secondary-color);
     color: var(--accent2-color);
     display: flex;
     flex-direction: row;
@@ -187,8 +187,8 @@ form {
     width: 400px;
     margin: 0 auto;
     padding: 15px;
-    background-color: #ddd;
-    color: #111;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 .form-item-column1,
@@ -222,7 +222,7 @@ input:not([type="radio"]):not([type="checkbox"]) {
 button {
     display: block;
     background-color: navy;
-    color: #fff;
+    color: var(--primary-color);
     width: 400px;
     padding: 0.75rem;
 }
