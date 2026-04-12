@@ -296,16 +296,11 @@ footer {
     text-decoration: none;
 }
 
-.rivers {
-    padding: 20px 20px;
-    background-color: var(--accent1-color);
-    box-shadow: 0px 4px 10px var(--accent2-color);
-}
-
+.rivers,
 .people {
     padding: 20px 20px;
     background-color: var(--accent1-color);
-    box-shadow: 0px 4px 10px var(--accent2-color)
+    box-shadow: 0px 4px 10px var(--accent2-color);
 }
 
 .contactus a {
@@ -314,14 +309,12 @@ footer {
     align-items: center;
     padding: 10px 20px;
     font-size: 25px;
-    text-decoration: none;
     background-color: var(--secondary-color);
     border-radius: 10px;
 }
 
 .contactus p {
     font-size: x-large;
-    font-weight: bold;
     text-align: center;
     color: var(--accent1-color);
 }
