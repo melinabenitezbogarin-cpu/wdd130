@@ -4,7 +4,9 @@
     --accent1-color: teal;
     --accent2-color: black;
     --heading-front: "White Water Rafting", serif;
-    --body-front: Arial, Helvetica, sans-serif;
+    --body-front: 'Roboto',
+        Arial,
+        sans-serif;
 }
 
 * {
@@ -15,7 +17,8 @@
 
 body {
     font-family: var(--body-front);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
+
 }
 
 .horizontal-layout {
@@ -67,7 +70,6 @@ footer {
 
 nav,
 p,
-section,
 article {
     margin: 16px;
     padding: 8px;
@@ -79,8 +81,10 @@ h2 {
     padding: 8px;
     width: 840px;
     text-align: center;
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
+    color: var(--accent1-color);
+    font-size: 34px;
+    text-shadow: 0px 4px 10px var(--secondary-color);
+    text-decoration: underline;
 }
 
 footer img {
@@ -94,35 +98,40 @@ footer img {
 }
 
 .hero img {
+    position: relative;
     display: block;
     width: 100%;
     height: auto;
 }
 
 h1 {
-    position: relative;
-    top: 10px;
+    position: absolute;
+    font-size: 40px;
+    top: 20px;
     width: 840px;
-    padding: 10px;
+    padding: 14px;
     text-align: center;
-    color: var(--accent1-color);
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 .hero article {
     position: absolute;
-    top: 307px;
-    width: 820px;
+    top: 305px;
+    width: 100%;
     padding: 5px;
     padding-bottom: 0px;
-    opacity: 0.85;
+    opacity: 0.75;
     background-color: var(--secondary-color);
     color: var(--accent2-color);
     text-align: left;
+    left: -16px;
 }
 
 .hero article img {
     float: right;
-    width: 113px;
+    width: 123px;
 }
 
 .history {
@@ -131,8 +140,8 @@ h1 {
 
 .inside {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 30px;
 }
 
 .figures {
@@ -148,7 +157,6 @@ h1 {
 }
 
 .flex-container {
-    border: 2px solid var(--accent2-color);
     background-color: var(--secondary-color);
     color: var(--accent2-color);
     display: flex;
@@ -238,4 +246,204 @@ footer {
 
 .map iframe {
     border: 0;
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.grid-items img {
+    width: 100%;
+}
+
+.trips {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trips a {
+    padding: 10px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.riversandpeople {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.rivers img,
+.people img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    width: 328px;
+    background-color: transparent;
+    color: var(--secondary-color);
+    margin: 5px;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.rivers {
+    padding: 20px 20px;
+    background-color: var(--accent1-color);
+    box-shadow: 0px 4px 10px var(--accent2-color);
+}
+
+.people {
+    padding: 20px 20px;
+    background-color: var(--accent1-color);
+    box-shadow: 0px 4px 10px var(--accent2-color)
+}
+
+.contactus a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.contactus p {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: var(--accent1-color);
+}
+
+.trippictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.trippictures img {
+    width: 100%;
+}
+
+.treesandlake p {
+    position: absolute;
+    top: 350px;
+    width: 220px;
+    padding: 5px;
+    padding-bottom: 0px;
+    opacity: 0.85;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.treesandlake h2 {
+    position: absolute;
+    width: 220px;
+    top: 680px;
+    padding: 5px;
+    padding-bottom: 0px;
+    opacity: 0.85;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 20px;
+    right: 62%;
+}
+
+.handsup p {
+    position: absolute;
+    top: 350px;
+    width: 220px;
+    padding: 5px;
+    padding-bottom: 0px;
+    opacity: 0.85;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.handsup h2 {
+    position: absolute;
+    width: 220px;
+    top: 680px;
+    padding: 5px;
+    padding-bottom: 0px;
+    opacity: 0.85;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 20px;
+    right: 42%;
+}
+
+.boattrip p {
+    position: absolute;
+    top: 350px;
+    width: 220px;
+    padding: 5px;
+    padding-bottom: 0px;
+    opacity: 0.85;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.boattrip h2 {
+    position: absolute;
+    width: 220px;
+    top: 680px;
+    padding: 5px;
+    padding-bottom: 0px;
+    opacity: 0.85;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 20px;
+    right: 21.5%;
+}
+
+.trip1 {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid var(--accent2-color);
+    letter-spacing: 1px;
+    margin-bottom: 40px
+}
+
+th,
+td {
+    border: 1px solid var(--accent2-color);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.explanation {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: var(--accent2-color);
+    background-color: var(--accent1-color);
 }
