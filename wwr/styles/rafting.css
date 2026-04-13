@@ -334,7 +334,6 @@ footer {
     position: absolute;
     top: 420px;
     width: 220px;
-    padding: 5px;
     padding-bottom: 0px;
     opacity: 0.85;
     background-color: var(--accent1-color);
@@ -345,7 +344,6 @@ footer {
     position: absolute;
     width: 220px;
     top: 740px;
-    padding: 5px;
     padding-bottom: 0px;
     opacity: 0.85;
     background-color: var(--secondary-color);
@@ -360,7 +358,6 @@ footer {
     position: absolute;
     top: 420px;
     width: 220px;
-    padding: 5px;
     padding-bottom: 0px;
     opacity: 0.85;
     background-color: var(--accent1-color);
@@ -371,7 +368,6 @@ footer {
     position: absolute;
     width: 220px;
     top: 740px;
-    padding: 5px;
     padding-bottom: 0px;
     opacity: 0.85;
     background-color: var(--secondary-color);
@@ -386,7 +382,6 @@ footer {
     position: absolute;
     top: 420px;
     width: 220px;
-    padding: 5px;
     padding-bottom: 0px;
     opacity: 0.85;
     background-color: var(--accent1-color);
@@ -397,7 +392,6 @@ footer {
     position: absolute;
     width: 220px;
     top: 740px;
-    padding: 5px;
     padding-bottom: 0px;
     opacity: 0.85;
     background-color: var(--secondary-color);
