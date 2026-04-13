@@ -438,5 +438,8 @@ tfoot tr {
 .contact h1 {
     position: relative;
     opacity: 100%;
+}
+
+.contact h1 {
     margin-bottom: 35px;
 }
