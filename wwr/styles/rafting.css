@@ -175,11 +175,10 @@ h1 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 5px;
 }
 
 .contact p {
-    margin: 0px 0;
+    margin: -5px;
 }
 
 .information {
@@ -435,7 +434,9 @@ tfoot tr {
     background-color: var(--accent1-color);
 }
 
-.contactus h1 {
+.contactus h1,
+.contact h1 {
     position: relative;
     opacity: 100%;
+    margin-bottom: 35px;
 }
